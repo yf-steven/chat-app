@@ -30,7 +30,7 @@
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
-  /* overflow: scroll; */
+  overflow: scroll;
 }
 .room{
   padding: 20px 0 40px;
