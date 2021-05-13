@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: #253141;
 }
-.left_header{
+.side-bar-header{
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
@@ -30,7 +30,7 @@
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
-  /* overflow: scroll; */
+  overflow: scroll;
 }
 .room{
   padding: 20px 0 40px;
@@ -43,72 +43,72 @@
   width: calc(100vw - 300px);
   background-color: #ffffff;
 }
-.main_header{
+.chat-header{
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
-.subject{
+.header-title{
   color: #333;
   font-size: 24px;
   margin-top: 36px;
 }
-.exit_btn{
+.header-button{
   margin-top: 36px;
 }
-.exit_btn a{
+.header-button a{
   color: darkred;
   border: darkred solid 1px;
   padding: 20px;
 }
-.main_chat{
+.messages{
   height: calc(100vh - 190px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
   overflow: scroll;
 }
-.chat_message{
+.message{
   margin: 10px 0 0 0;
 }
-.user_date{
+.upper-message{
   display: flex;
 }
-.users{
+.message-user{
   color: #434A54;
   font-size: 16px;
 }
-.date_time{
+.message-date{
   color: #999;
   font-size: 12px;
   padding-left: 10px;
 }
-.message_box{
+.lower-message{
   margin-top: 10px;
 }
-.messages{
+.message-content{
   color: #434A54;
   font-size: 14px;
   margin-bottom: 40px;
 }
-.message_form{
+.form{
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
   display: flex;
 }
-.text_submit{
+.form-input{
   width: 100%;
   background-color: white;
   display: flex;
 }
-.text{
+.form-message{
   padding-left: 10px;
   height: 50px;
   width: 100%;
   border: none;
 }
-.send{
+.form-submit{
   color: white;
   font-size: 16px;
   background-color: #38AEF0;
