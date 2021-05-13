@@ -62,53 +62,53 @@
   border: darkred solid 1px;
   padding: 20px;
 }
-.main_chat{
+.messages{
   height: calc(100vh - 190px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
   overflow: scroll;
 }
-.chat_message{
+.message{
   margin: 10px 0 0 0;
 }
-.user_date{
+.upper-message{
   display: flex;
 }
-.users{
+.message-user{
   color: #434A54;
   font-size: 16px;
 }
-.date_time{
+.message-date{
   color: #999;
   font-size: 12px;
   padding-left: 10px;
 }
-.message_box{
+.lower-message{
   margin-top: 10px;
 }
-.messages{
+.message-content{
   color: #434A54;
   font-size: 14px;
   margin-bottom: 40px;
 }
-.message_form{
+.form{
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
   display: flex;
 }
-.text_submit{
+.form-input{
   width: 100%;
   background-color: white;
   display: flex;
 }
-.text{
+.form-message{
   padding-left: 10px;
   height: 50px;
   width: 100%;
   border: none;
 }
-.send{
+.form-submit{
   color: white;
   font-size: 16px;
   background-color: #38AEF0;
